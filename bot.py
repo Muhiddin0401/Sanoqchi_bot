@@ -160,7 +160,7 @@ async def help_handler(message: Message):
         "— Invite link orqali kirganlar hisobga olinmaydi"
         
         "\n\nSavollaringiz bo'lsa:\n"
-        "— @G07102023 ga murojat qilishingiz mumkin"
+        "— @G071023 ga murojat qilishingiz mumkin"
 
     )
 
