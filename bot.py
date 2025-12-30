@@ -33,7 +33,8 @@ dp = Dispatcher()
 # =========================
 # DATABASE
 # =========================
-conn = sqlite3.connect("sanoqchi.db")
+DB_PATH = "/data/sanoqchi.db"
+conn = sqlite3.connect(DB_PATH)
 cursor = conn.cursor()
 
 # cursor.execute(""" DROP TABLE challenges """)
