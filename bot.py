@@ -159,7 +159,7 @@ async def help_handler(message: Message):
         "— Faqat qo‘lda qo‘shilgan odamlar hisoblanadi\n"
         "— Invite link orqali kirganlar hisobga olinmaydi"
         
-        "Savollaringiz bo'lsa:\n"
+        "\n\nSavollaringiz bo'lsa:\n"
         "— @G07102023 ga murojat qilishingiz mumkin"
 
     )
