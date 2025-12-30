@@ -4,7 +4,6 @@ import os
 import sqlite3
 from datetime import datetime, date
 
-# from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode, ChatType
@@ -15,12 +14,8 @@ from aiogram.filters.chat_member_updated import ChatMemberUpdatedFilter
 # =========================
 # LOAD ENV
 # =========================
-# load_dotenv()
-# TOKEN = os.getenv("BOT_TOKEN")
-# OWNER_ID = int(os.getenv("OWNER_ID"))
-
-TOKEN = "8297525018:AAEgb53f9Pm-P_xfAEBIxJhwOecVRdxKlmM"
-OWNER_ID = 5340265909
+TOKEN = os.getenv("BOT_TOKEN")
+OWNER_ID = int(os.getenv("OWNER_ID"))
 
 bot = Bot(
     token=TOKEN,
